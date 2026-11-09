@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculatrice</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+    <div class="calculatrice">
+
+        <h2>Calculatrice</h2>
+
+        <input type="number" id="num1" placeholder="Nombre 1">
+
+        <input type="number" id="num2" placeholder="Nombre 2">
+
+        <div class="buttons">
+            <button onclick="Addition()" id="plus">+</button>
+            <button onclick="Soustraction()" id="moins">-</button>
+            <button onclick="Multiplication()" id="fois">*</button>
+            <button onclick="Division()" id="division">/</button>
+        </div>
+        
+        
+        <button onclick="Calculer()" id="egal">=</button>
+        <button onclick="Effacer()"  id="effacer">Effacer</button>
+
+        <h3 id="resultat">Résultat :</h3>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
